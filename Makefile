@@ -1,7 +1,7 @@
-DIRS = cdb6_sls13
+DIRS = cdb6_sls13 provided
 
 all:
-	$(foreach dir, $(DIRS), cd $(dir); make;)
+	-for d in $(DIRS); do (cd $$d; $(MAKE)); done
 
 clean:
-	$(foreach dir, $(DIRS), cd $(dir); make clean;)
+	-for d in $(DIRS); do (cd $$d; $(MAKE) clean); done
