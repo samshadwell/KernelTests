@@ -26,6 +26,8 @@ should just have to modify the `ALL` field).
 Put the name of this namespaced directory at the end of the DIRS variable at the
 top of the Makefile.
 
+Submit a Pull Request on GitHub so other people can benefit from your tests (even if you don't think they're good! Any additional information is good information).
+
 Test it out! Make sure running `make` creates the binaries for all your test
 files, and that `make clean` removes them.
 
