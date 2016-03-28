@@ -13,6 +13,16 @@ Example:
 To see what the expected behavior of each of the test files is, look for a block
 comment at the top of the source file.
 
+You can also copy your `yalnix` binary into the directory that has the tests that
+you want to run. This works well for anything that Exec's another program (like a
+lot of the provided tests).
+
+Example:
+
+`cp /path/to/yalnix /path/to/KernelTest/provided`
+`cd /path/to/KernelTest/provided`
+`./yalnix testfile`
+
 ## CONTRIBUTING
 
 To contribute your own test files, first create a directory for them that is
