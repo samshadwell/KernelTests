@@ -11,6 +11,7 @@
  *
  * Requires:
  *   Fork() and Exit()
+ */
 extern int
 main()
 {
