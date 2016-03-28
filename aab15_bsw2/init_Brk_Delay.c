@@ -7,7 +7,7 @@ int main() {
   int i = 0;
   char *str = malloc(sizeof(char) * 100);
   while(i < 11) {
-    Delay(2);
+    Delay(4);
     str[i] = 'a' + i;
     str[i + 1] = '\0';
     TracePrintf(-1, "Pid: %d, i: %d, str: %s\n", GetPid(), i, str);
