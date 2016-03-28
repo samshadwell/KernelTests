@@ -27,7 +27,7 @@
 #
 
 ALL = test_3fork test_brk test_exec test_exit test_fork test_read test_stack
-ALL += test_wait
+ALL += test_wait test_exec_wrapper
 
 PUBLIC_DIR = /clear/courses/comp421/pub
 

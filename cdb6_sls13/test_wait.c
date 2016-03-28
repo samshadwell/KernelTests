@@ -3,6 +3,18 @@
 #include <comp421/hardware.h>
 #include <comp421/yalnix.h>
 
+/**
+ * Parent spawns a child then waits on it. Then attempts to wait on nonexistent
+ * child process.
+ *
+ * Expected Output:
+ *   Child will print message post-fork, and then return and call exit.
+ *   Parent will reap that child and print its PID and exit status
+ *   Parent will then wait on nonexistent child, and should print -1 twice
+ *
+ * Requires:
+ *   Fork(), Wait(), Exit()
+ */
 extern int
 main()
 {

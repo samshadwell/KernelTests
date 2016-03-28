@@ -3,6 +3,19 @@
 #include <comp421/hardware.h>
 #include <comp421/yalnix.h>
 
+/**
+ * Expected behavior:
+ *   Parent spawns 3 child processes then starts infinite looping.
+ *
+ *   Each child thread also gets into an infinite loop.
+ *
+ *   Should see your Kernel context switching between the 4 processes if
+ *   that's something you're logging.
+ *
+ * Tests:
+ *   Fork
+ */
+
 extern int
 main()
 {

@@ -6,7 +6,6 @@
 extern int
 main()
 {
-
 	char *buf = "asd";
 
 	TracePrintf(0, "Starting test_read program\n");

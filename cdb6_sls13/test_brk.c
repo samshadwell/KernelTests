@@ -3,6 +3,18 @@
 #include <comp421/hardware.h>
 #include <comp421/yalnix.h>
 
+/**
+ * Output:
+ *   A bunch of printouts of "Successful malloc call in init" followed by some
+ *   memory access checks. Then will get to point where malloc would have to
+ *   overwrite the stack, and returns NULL.
+ *
+ *   After NULL return program exits.
+ *
+ * Tests:
+ *   Brk, exit (although the Brk part isn't really dependent on Exit being
+ *   implemented
+ */
 extern int
 main()
 {
