@@ -20,8 +20,10 @@ lot of the provided tests).
 Example:
 
 `cp /path/to/yalnix /path/to/KernelTest/provided`
+
 `cd /path/to/KernelTest/provided`
 `./yalnix testfile`
+
 
 ## CONTRIBUTING
 
